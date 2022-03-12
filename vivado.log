@@ -62,3 +62,617 @@ launch_runs impl_1 -to_step write_bitstream -jobs 4
 Run output will be captured here: C:/Users/junki/Downloads/SoundDisplay/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
 [Sun Mar 13 02:28:17 2022] Launched impl_1...
 Run output will be captured here: C:/Users/junki/Downloads/SoundDisplay/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/SoundDisplay/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+git status
+WARNING: [Common 17-259] Unknown Tcl command 'git status' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+fatal: not a git repository (or any of the parent directories): .git
+git init
+WARNING: [Common 17-259] Unknown Tcl command 'git init' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+Initialized empty Git repository in C:/Users/junki/AppData/Roaming/Xilinx/Vivado/.git/
+git remote add origin git@github.com:alvynben/ee2026-project.git
+WARNING: [Common 17-259] Unknown Tcl command 'git remote add origin git@github.com:alvynben/ee2026-project.git' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+git status
+WARNING: [Common 17-259] Unknown Tcl command 'git status' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.Xil/
+	2018.2/
+	hs_err_pid13192.log
+	tclapp/
+	vivado.jou
+	vivado.log
+	vivado_10704.backup.jou
+	vivado_10704.backup.log
+	vivado_11428.backup.jou
+	vivado_11428.backup.log
+	vivado_13908.backup.jou
+	vivado_13908.backup.log
+	vivado_14392.backup.jou
+	vivado_14392.backup.log
+	vivado_16812.backup.jou
+	vivado_16812.backup.log
+	vivado_pid15620.str
+	webtalk.jou
+	webtalk.log
+	webtalk_4804.backup.jou
+	webtalk_4804.backup.log
+	webtalk_972.backup.jou
+	webtalk_972.backup.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+ls
+ambiguous command name "ls": lsearch lset lsort
+git add .
+WARNING: [Common 17-259] Unknown Tcl command 'git add .' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/catalog/2018.2/aldec/activehdl/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/catalog/2018.2/aldec/riviera/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/catalog/2018.2/xilinx/designutils/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/catalog/2018.2/xilinx/modelsim/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/catalog/2018.2/xilinx/projutils/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/catalog/2018.2/xilinx/questa/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/catalog/2018.2/xilinx/xsim/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/support/appinit/appinit.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/support/appinit/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/support/args/args.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/support/args/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/support/linter/tcl_lint.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/support/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/activehdl.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/app.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/common/helpers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/common/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/common/sim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/common/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/doc/legal.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/helpers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/register_options.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/sim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/test/activehdl_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/test/src/testbench.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/test/src/uut.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/test/test.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/activehdl/tools/regenerate_msg_id.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/common/helpers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/common/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/common/sim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/common/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/doc/legal.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/helpers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/register_options.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/riviera.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/sim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/test/riviera_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/test/src/testbench.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/test/src/uut.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/test/test.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/aldec/riviera/tools/regenerate_msg_id.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/app.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/bisect_pblock.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/check_cdc_paths.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/common.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/convert_muxfx_to_luts.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/create_combined_mig_io_design.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/create_diff_ports.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/designutils.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/bisect_pblock.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/check_cdc_paths.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/clone_cell.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/clone_net_driver.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/convert_muxfx_to_luts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/create_combined_mig_io_design.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/create_diff_ports.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/generate_runs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_clock_interaction.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_connected_ref_pins.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_data_through_pins.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_host_platform.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_inter_slr_nets.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_leaf_cells.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_mem.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_pid_mem.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_sll_nets.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/get_sll_nodes.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/gets_regexp.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/highlight_enable_signal_sites.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/insert_buffer.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/insert_buffer_chain.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/insert_clock_probe.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/is_fabric_connected.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/legal.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/prettyTable.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/read_file_regexp.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/reapply_iostandard.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/remove_buffer.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/rename_net.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/replicate_high_fanout_registers.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/report_all_primitives.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/report_cells_fanout.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/report_cells_loc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/report_clock_buffers.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/report_critical_hfn.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/report_failfast.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/report_hier_util.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/report_parts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/source_path.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/timing_report_to_verilog.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/verilog2int.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/write_ip_integrator_testbench.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/write_loc_constraints.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/write_slr_pblock_xdc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/doc/write_template.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/generate_runs.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/get_clock_interaction.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/get_connected_ref_pins.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/get_data_through_pins.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/get_host_platform.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/get_inter_slr_nets.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/get_leaf_cells.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/get_pid_mem.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/get_sll_nets.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/highlight_enable_signal_sites.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/insert_buffer.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/is_fabric_connected.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/prettyTable.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/read_file_regexp.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/reapply_iostandard.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/replicate_high_fanout_registers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/report_all_primitives.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/report_cells_fanout.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/report_cells_loc.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/report_clock_buffers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/report_critical_hfn.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/report_failfast.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/report_hier_util.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/report_parts.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/source_path.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/check_cdc_paths_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/check_cdc_paths_0002.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/convert_muxfx_to_luts_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/convert_muxfx_to_luts_0002.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/create_combined_mig_io_design_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/report_clock_buffers_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/src/bench16/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/src/bench16/bench16.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/src/bench16/bench16.xdc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/src/bench16/bench16_netlist.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/src/bench16/mmcm0_clk_wiz.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/src/bench16/mux2.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/src/write_ip_integrator_testbench/test_write_ip_integrator_testbench_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/test.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/timing_report_to_verilog_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/timing_report_to_verilog_0002.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/write_ip_integrator_testbench_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/write_loc_constraints_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/test/write_slr_pblock_xdc_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/timing_report_to_verilog.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/verilog2int.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/write_ip_integrator_testbench.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/write_loc_constraints.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/write_slr_pblock_xdc.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/designutils/write_template.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/app.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/common/utils.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/doc/legal.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/helpers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/modelsim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/register_options.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/sim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/test/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/test/modelsim_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/test/src/tb.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/test/src/top.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/modelsim/test/test.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/app.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/common/utils.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/convert_ngc.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/copy_run.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/create_bd_partition_def.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/create_rqs_run.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/convert_ngc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/copy_run.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/create_bd_partition_def.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/create_rqs_run.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/export_bd_synth.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/export_ip_user_files.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/export_simulation.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/legal.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/setup_ip_static_library.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/doc/write_project_tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/export_bd_synth.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/export_ip_user_files.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/export_simulation.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/projutils.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/setup_ip_static_library.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/cpr_test_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/create_rqs_run_test_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/data/out_ddr_flop.ngc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/ebs_test_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/ebs_test_0002.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/esf_test_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/esf_test_0002.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/ngc_test_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/report_qor/RQSPreImpl.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/report_qor/RQSPreSynth.xdc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/src/tb.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/src/top.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/test.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/wpt_test_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/test/wpt_test_0002.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/projutils/write_project_tcl.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/app.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/common/utils.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/doc/legal.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/helpers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/questa.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/register_options.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/sim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/test/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/test/questa_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/test/src/tb.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/test/src/top.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/questa/test/test.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/app.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/common/utils.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/doc/legal.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/helpers.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/pkgIndex.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/register_options.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/revision_history.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/sim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/tclIndex.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/test/README.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/test/src/tb.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/test/src/top.v.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/test/test.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/test/xsim_0001.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/XilinxTclStore/tclapp/xilinx/xsim/xsim.tcl.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/shortcuts/shortcuts.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2018.2/vivado.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_10704.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_10704.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_11428.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_11428.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_13908.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_13908.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_14392.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_14392.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_16812.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_16812.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_pid15620.str.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webtalk.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webtalk.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webtalk_4804.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webtalk_4804.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webtalk_972.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in webtalk_972.backup.log.
+The file will have its original line endings in your working directory
+git commit
+WARNING: [Common 17-259] Unknown Tcl command 'git commit' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.

@@ -341,3 +341,17 @@ setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "ls", true); // aA (Z, 
 // Tcl Message: ambiguous command name "ls": lsearch lset lsort 
 // Tcl Command: 'rdi::info_commands {gi*}'
 // Tcl Command: 'rdi::info_commands {git*}'
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git add .", true); // aA (Z, ck)
+// Tcl Command: 'git add .'
+// Tcl Command: 'git add .'
+// Tcl Message: git add . 
+// Tcl Command: 'rdi::match_options {git} {}'
+// Tcl Command: 'rdi::match_options {git} {m}'
+// Elapsed time: 10 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "git commit", true); // aA (Z, ck)
+// Tcl Command: 'git commit'
+// Tcl Command: 'git commit'
+// Tcl Message: git commit 
+// bx (ck):  Tcl Command Line : addNotify
+// Elapsed time: 30 seconds
+dismissDialog("Tcl Command Line"); // bx (ck)
