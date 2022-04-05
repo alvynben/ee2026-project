@@ -1083,16 +1083,16 @@
         </code_editor_syntax_styles_SyntaxCheck>
         <CODE_EDITOR_FONT font_name="Monospaced" font_size="12"/>
         <RECENT_FILES>
-            <recent index="0" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu_screen.mem"/>
-            <recent index="1" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc"/>
-            <recent index="2" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_3.mem"/>
-            <recent index="3" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_2.mem"/>
-            <recent index="4" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_1.mem"/>
-            <recent index="5" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_indicator.v"/>
-            <recent index="6" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v"/>
-            <recent index="7" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/frequency_header.mem"/>
-            <recent index="8" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/test01.mem"/>
-            <recent index="9" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/test02.mem"/>
+            <recent index="0" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage.mem"/>
+            <recent index="1" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/credits2.mem"/>
+            <recent index="2" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/credits.mem"/>
+            <recent index="3" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu_screen.mem"/>
+            <recent index="4" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/constrs_1/new/Basys3_Master.xdc"/>
+            <recent index="5" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_3.mem"/>
+            <recent index="6" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_2.mem"/>
+            <recent index="7" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_1.mem"/>
+            <recent index="8" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_indicator.v"/>
+            <recent index="9" path="C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/Top_Student.v"/>
         </RECENT_FILES>
         <RECENT_DIRECTORIES>
             <recent index="0" path="C:/Users/junki/Desktop"/>
@@ -1277,7 +1277,7 @@
         <SHOW_PATH_IN_EDITOR value="true"/>
         <SHOW_STATUS_MESSAGES value="false"/>
         <SHOW_TOUCHPOINT_SURVEY_BITGEN value="2018.2"/>
-        <SHOW_TOUCHPOINT_SURVEY_BITGEN_NUM_RUNS value="0"/>
+        <SHOW_TOUCHPOINT_SURVEY_BITGEN_NUM_RUNS value="4"/>
         <SIGNAL_GROUP_TO_PORTS_RULE value="true"/>
         <SIMULATION_CONFIRM_CLOSE value="true"/>
         <SIMULATION_CONFIRM_RELAUNCH value="true"/>

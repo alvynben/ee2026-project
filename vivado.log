@@ -62,10 +62,9 @@ git remote -v
 WARNING: [Common 17-259] Unknown Tcl command 'git remote -v' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
 origin	git@github.com:alvynben/ee2026-project.git (fetch)
 origin	git@github.com:alvynben/ee2026-project.git (push)
-/runme.log
-open_hw
-connect_hw_server
-INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  5 23:17:48 2022...
+to hw_server url TCP:localhost:3121
 INFO: [Labtools 27-2222] Launching hw_server...
 INFO: [Labtools 27-2221] Launch Output:
 
@@ -507,3 +506,85 @@ warning: LF will be replaced by CRLF in vivado_pid4572.str.
 The file will have its original line endings in your working directory
 warning: LF will be replaced by CRLF in vivado_pid8396.str.
 The file will have its original line endings in your working directory
+git status
+WARNING: [Common 17-259] Unknown Tcl command 'git status' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   vivado.jou
+	modified:   vivado.log
+	modified:   vivado_pid4572.str
+	modified:   vivado_pid8396.str
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   vivado.jou
+	modified:   vivado.log
+	modified:   vivado_pid8396.str
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 22:58:04 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 22:58:04 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+git status
+WARNING: [Common 17-259] Unknown Tcl command 'git status' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   vivado.jou
+	modified:   vivado.log
+	modified:   vivado_pid4572.str
+	modified:   vivado_pid8396.str
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   vivado.jou
+	modified:   vivado.log
+	modified:   vivado_pid8396.str
+git add .
+WARNING: [Common 17-259] Unknown Tcl command 'git add .' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+warning: LF will be replaced by CRLF in vivado.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_pid8396.str.
+The file will have its original line endings in your working directory
+git commit -m "Correct vol_stage_3"
+WARNING: [Common 17-259] Unknown Tcl command 'git commit -m Correct vol_stage_3' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+[master 345c72e] Correct vol_stage_3
+ 4 files changed, 758 insertions(+), 1 deletion(-)
+git push
+WARNING: [Common 17-259] Unknown Tcl command 'git push' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+To github.com:alvynben/ee2026-project.git
+   29ab554..345c72e  master -> master
+exec git push
+Everything up-to-date
