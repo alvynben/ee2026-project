@@ -41,4 +41,469 @@ Changes not staged for commit:
 	deleted:    vivado_14392.backup.log
 	deleted:    vivado_16812.backup.jou
 	deleted:    vivado_16812.backup.log
-	deleted:    vivado_pid15620.
+	deleted:    vivado_pid15620.str
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	vivado_14752.backup.jou
+	vivado_14752.backup.log
+	vivado_15140.backup.jou
+	vivado_15140.backup.log
+	vivado_15388.backup.jou
+	vivado_15388.backup.log
+	vivado_15620.backup.jou
+	vivado_15620.backup.log
+	vivado_pid15388.str
+	vivado_pid4572.str
+	vivado_pid8396.str
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git remote -v
+WARNING: [Common 17-259] Unknown Tcl command 'git remote -v' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+origin	git@github.com:alvynben/ee2026-project.git (fetch)
+origin	git@github.com:alvynben/ee2026-project.git (push)
+/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 09:53:26 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 09:53:26 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 10:00:00 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 10:00:00 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 10:20:34 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 10:20:34 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 11:02:12 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close [ open {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/test02.mem} w ]
+add_files {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/test02.mem}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 11:05:21 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 11:05:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+export_ip_user_files -of_objects  [get_files {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/test01.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/test01.mem}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/test02.mem}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/test02.mem}}
+close [ open {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/frequency_header.mem} w ]
+add_files {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/frequency_header.mem}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 11:22:52 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 11:22:52 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 11:37:14 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 11:37:14 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 11:43:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 11:43:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 12:06:37 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 12:06:37 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close [ open {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu_screen.mem} w ]
+add_files {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/menu_screen.mem}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 12:53:43 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 12:53:43 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 12:57:49 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 12:57:49 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close [ open {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_1.mem} w ]
+add_files {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_1.mem}}
+close [ open {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_3.mem} w ]
+add_files {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_3.mem}}
+close [ open {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_2.mem} w ]
+add_files {{C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.srcs/sources_1/new/vol_stage_2.mem}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 17:01:20 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 17:01:21 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Apr  5 17:07:42 2022] Launched synth_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/synth_1/runme.log
+[Tue Apr  5 17:07:42 2022] Launched impl_1...
+Run output will be captured here: C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/junki/Downloads/Telegram Desktop/incomplete_cockery.xpr/SoundDisplay/SoundDisplay.runs/impl_1/Top_Student.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183AA0CAEA
+git status
+WARNING: [Common 17-259] Unknown Tcl command 'git status' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   2018.2/layouts/application/default.layout
+	modified:   2018.2/vivado.xml
+	modified:   vivado.jou
+	modified:   vivado.log
+	deleted:    vivado_10704.backup.jou
+	deleted:    vivado_10704.backup.log
+	deleted:    vivado_11428.backup.jou
+	deleted:    vivado_11428.backup.log
+	deleted:    vivado_14392.backup.jou
+	deleted:    vivado_14392.backup.log
+	deleted:    vivado_16812.backup.jou
+	deleted:    vivado_16812.backup.log
+	deleted:    vivado_pid15620.str
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	vivado_14752.backup.jou
+	vivado_14752.backup.log
+	vivado_15140.backup.jou
+	vivado_15140.backup.log
+	vivado_15388.backup.jou
+	vivado_15388.backup.log
+	vivado_15620.backup.jou
+	vivado_15620.backup.log
+	vivado_pid15388.str
+	vivado_pid4572.str
+	vivado_pid8396.str
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git remote -v
+WARNING: [Common 17-259] Unknown Tcl command 'git remote -v' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+origin	git@github.com:alvynben/ee2026-project.git (fetch)
+origin	git@github.com:alvynben/ee2026-project.git (push)
+git add .
+WARNING: [Common 17-259] Unknown Tcl command 'git add .' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+warning: LF will be replaced by CRLF in 2018.2/vivado.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_14752.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_14752.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_15140.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_15140.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_15388.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_15388.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_15620.backup.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_15620.backup.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_pid15388.str.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_pid4572.str.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_pid8396.str.
+The file will have its original line endings in your working directory
+git commit -m "Addd menu and volume"
+WARNING: [Common 17-259] Unknown Tcl command 'git commit -m Addd menu and volume' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+[master 343d2eb] Addd menu and volume
+ 21 files changed, 4851 insertions(+), 1771 deletions(-)
+ rewrite vivado.jou (68%)
+ rewrite vivado.log (98%)
+ delete mode 100644 vivado_10704.backup.jou
+ delete mode 100644 vivado_10704.backup.log
+ delete mode 100644 vivado_14392.backup.jou
+ delete mode 100644 vivado_14392.backup.log
+ rename vivado_11428.backup.jou => vivado_14752.backup.jou (50%)
+ rename vivado_16812.backup.log => vivado_14752.backup.log (63%)
+ create mode 100644 vivado_15140.backup.jou
+ create mode 100644 vivado_15140.backup.log
+ create mode 100644 vivado_15388.backup.jou
+ rename vivado_11428.backup.log => vivado_15388.backup.log (51%)
+ copy vivado.jou => vivado_15620.backup.jou (86%)
+ copy vivado.log => vivado_15620.backup.log (65%)
+ delete mode 100644 vivado_16812.backup.jou
+ create mode 100644 vivado_pid15388.str
+ delete mode 100644 vivado_pid15620.str
+ create mode 100644 vivado_pid4572.str
+ create mode 100644 vivado_pid8396.str
+git status
+WARNING: [Common 17-259] Unknown Tcl command 'git status' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   vivado.jou
+	modified:   vivado.log
+	modified:   vivado_pid4572.str
+	modified:   vivado_pid8396.str
+
+no changes added to commit (use "git add" and/or "git commit -a")
+git add .
+WARNING: [Common 17-259] Unknown Tcl command 'git add .' sending command to the OS shell for execution. It is recommended to use 'exec' to send the command to the OS shell.
+warning: LF will be replaced by CRLF in vivado.jou.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado.log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_pid4572.str.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in vivado_pid8396.str.
+The file will have its original line endings in your working directory
